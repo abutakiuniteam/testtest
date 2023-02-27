@@ -14,6 +14,8 @@
 		0C5F3CEE29ACD2B10021AE21 /* testtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F3CED29ACD2B10021AE21 /* testtestTests.swift */; };
 		0C5F3CF829ACD2B10021AE21 /* testtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F3CF729ACD2B10021AE21 /* testtestUITests.swift */; };
 		0C5F3CFA29ACD2B10021AE21 /* testtestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F3CF929ACD2B10021AE21 /* testtestUITestsLaunchTests.swift */; };
+		0C5F3D0729ACDDC20021AE21 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F3D0629ACDDC20021AE21 /* SwiftUIView.swift */; };
+		0CE7CC5D29ACF78D00193BED /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7CC5C29ACF78D00193BED /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0C5F3CF329ACD2B10021AE21 /* testtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5F3CF729ACD2B10021AE21 /* testtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testtestUITests.swift; sourceTree = "<group>"; };
 		0C5F3CF929ACD2B10021AE21 /* testtestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testtestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C5F3D0629ACDDC20021AE21 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0CE7CC5C29ACF78D00193BED /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 			children = (
 				0C5F3CDB29ACD2AF0021AE21 /* testtestApp.swift */,
 				0C5F3CDD29ACD2AF0021AE21 /* ContentView.swift */,
+				0CE7CC5C29ACF78D00193BED /* Images.swift */,
 				0C5F3CDF29ACD2B00021AE21 /* Assets.xcassets */,
 				0C5F3CE129ACD2B00021AE21 /* testtest.entitlements */,
 				0C5F3CE229ACD2B00021AE21 /* Preview Content */,
+				0C5F3D0629ACDDC20021AE21 /* SwiftUIView.swift */,
 			);
 			path = testtest;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5F3CDE29ACD2AF0021AE21 /* ContentView.swift in Sources */,
+				0CE7CC5D29ACF78D00193BED /* Images.swift in Sources */,
 				0C5F3CDC29ACD2AF0021AE21 /* testtestApp.swift in Sources */,
+				0C5F3D0729ACDDC20021AE21 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
